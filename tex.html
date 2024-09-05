@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector de PDF como Imágenes con Zoom, Movimiento y Rotación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls">
+        <button id="zoom-in">+</button>
+        <button id="zoom-out">-</button>
+        <button id="rotate-left">⟲</button>
+        <button id="rotate-right">⟳</button>
+    </div>
+    <div class="pdf-viewer" id="pdf-viewer">
+        <div class="page" id="page-2">
+            <img src="page2.png" alt="Página 2" class="pdf-image">
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- Añade estos elementos en tu HTML -->
+<div id="scale-display">Escala: 0.45</div>
+<div id="rotation-display">Rotación: 0°</div>
+
+</body>
+</html>

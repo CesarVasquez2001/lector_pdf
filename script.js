@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const scaleDisplay = document.getElementById("scale-display");
   const rotationDisplay = document.getElementById("rotation-display");
 
-  let scale = 0.20;
+  let scale = 0.2;
   let rotation = 0;
   let posX = 0,
     posY = 0;
